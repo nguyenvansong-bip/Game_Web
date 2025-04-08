@@ -1,0 +1,21 @@
+1. Các file code phải có dòng đầu tiên là tên của file ví dụ: 
+//file1.py
+...
+2. Tên của file có dạng viết hoa chữ đầu, không cách, ví dụ: 
+"GameWeb.html"/"MyCss.css"/...
+3. Trong file code thì không được cách dòng, ví dụ:
+"const canvas = document.getElementById("gameCanvas");
+const ctx = canvas.getContext("2d");
+
+let player "
+-> sai
+ -> đúng:
+ "const canvas = document.getElementById("gameCanvas");
+const ctx = canvas.getContext("2d");
+<xóa cách>
+let player "
+3. Tên các hàm cũng tương tự tên file ví dụ: 
+"class MainProgram:
+    def TinhDienTich():"
+---------------------------------
+08/04/2025
